@@ -27,12 +27,20 @@ export default function Contact() {
     e.preventDefault()
     setIsSubmitting(true)
 
+    // Create the email data with the form data
+    const emailData = {
+      to_name: 'Your Name',  // Set this to a fixed recipient name or leave it as is
+      from_name: formData.name,
+      user_email: formData.email,
+      message: formData.message,
+    }
+
     // Send the form data using EmailJS
     emailjs.send(
-      'service_ycbe558',  // Your Service ID
-  'template_l2oedyr', // Your Template ID
-      formData,
-      'llAf6yqN96ajFNUgm'       // Your EmailJS User ID
+      'service_5j5du3k',  // Your Service ID
+      'template_2l3c6ys',  // Your Template ID
+      emailData,           // Sending mapped data
+      'jP0wAi_NHFf-No7kj'  // Your EmailJS User ID
     )
     .then((response) => {
       console.log('Success:', response.text)

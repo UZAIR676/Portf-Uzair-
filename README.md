@@ -9,5 +9,5 @@ Key Features:
 
 This portfolio serves as a professional hub for my work and experience, making it easier for recruiters and tech enthusiasts to explore my skills.
 
-🚀 Check it out here: uzaira.netlify.app
+🚀 Check it out here:  https://uzaira.netlify.app/
 

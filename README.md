@@ -7,7 +7,5 @@ Key Features:
 ✅ Projects Showcase – Highlights my best work in web development and machine learning
 ✅ Contact Form – Allows easy communication for potential clients and collaborators
 
-This portfolio serves as a professional hub for my work and experience, making it easier for recruiters and tech enthusiasts to explore my skills.
-
 🚀 Check it out here:  https://uzaira.netlify.app/
 

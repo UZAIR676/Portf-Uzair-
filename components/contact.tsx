@@ -212,7 +212,7 @@ export default function Contact() {
                   icon: <MessageCircle className="w-10 h-10 text-green-500" />, 
                   title: "WhatsApp", 
                   content: "+1(347) 724-1605", 
-                  link: "#", 
+                  link: "https://wa.me/13477241605", 
                 },
                 { 
                   icon: <Phone className="w-10 h-10 text-primary" />, 

@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { Mail, MapPin, Phone, Send } from "lucide-react"
+import { MessageCircle } from "lucide-react";
 import emailjs from 'emailjs-com'
 
 export default function Contact() {
@@ -208,9 +209,15 @@ export default function Contact() {
                   link: "mailto:uzairranamuhammad7@gmail.com", 
                 },
                 { 
-                  icon: <Phone className="w-10 h-10 text-primary" />, 
+                  icon: <MessageCircle className="w-10 h-10 text-green-500" />, 
                   title: "WhatsApp", 
-                  content: "03010053877", 
+                  content: "+1(347) 724-1605", 
+                  link: "#", 
+                },
+                { 
+                  icon: <Phone className="w-10 h-10 text-primary" />, 
+                  title: "Phone", 
+                  content: "+1(347) 724-1605", 
                   link: "tel:03010053877", 
                 },
                 { 

@@ -36,12 +36,12 @@ export default function Contact() {
       message: formData.message,
     }
 
-    // Send the form data using EmailJS
+   
     emailjs.send(
-      'service_5j5du3k',  // Your Service ID
-      'template_2l3c6ys',  // Your Template ID
-      emailData,           // Sending mapped data
-      'jP0wAi_NHFf-No7kj'  // Your EmailJS User ID
+      'service_5j5du3k',  
+      'template_2l3c6ys',  
+      emailData,          
+      'jP0wAi_NHFf-No7kj'  
     )
     .then((response) => {
       console.log('Success:', response.text)

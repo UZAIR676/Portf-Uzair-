@@ -52,7 +52,10 @@ export default function Skills() {
       { name: "NumPy", level: 80, icon: "🔢" },
       { name: "Scikit-learn", level: 75, icon: "🔬" },
       { name: "TensorFlow", level: 80, icon: "🤖" },
-      {name: "Natural Language Processing", level: 60, icon: "🧠" },
+      { name: "Natural Language Processing", level: 60, icon: "🧠" },
+      { name: "Data Visualization", level: 85, icon: "📈" },
+      { name: "MLOps", level: 65, icon: "⚙️" },
+      { name: "Model Deployment", level: 70, icon: "🚀" }
   ]
     
   }

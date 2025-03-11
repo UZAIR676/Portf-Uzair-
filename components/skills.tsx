@@ -58,6 +58,7 @@ export default function Skills() {
       { name: "Model Deployment", level: 70, icon: "🚀" }
   ]
     
+// kia hal ha sonio 
   }
 
   return (

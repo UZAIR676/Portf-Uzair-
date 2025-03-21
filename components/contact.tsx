@@ -203,7 +203,7 @@ export default function Contact() {
             <div className="space-y-6">
               {[ 
                 { 
-                  icon: <Mail className="w-10 h-10 text-primary" />, 
+                  icon: <Mail className="w-10 h-10 text-primary text-white" />, 
                   title: "Email", 
                   content: "uzairranamuhammad7@gmail.com", 
                   link: "mailto:uzairranamuhammad7@gmail.com", 
@@ -221,7 +221,7 @@ export default function Contact() {
                   link: "tel:03010053877", 
                 },
                 { 
-                  icon: <MapPin className="w-10 h-10 text-primary" />, 
+                  icon: <MapPin className="w-10 h-10 text-primary text-red-700" />, 
                   title: "Location", 
                   content: "New York, USA", 
                   link: "#", 

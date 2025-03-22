@@ -156,7 +156,7 @@ export default function Contact() {
                     type="submit"
                     size="lg"
                     disabled={isSubmitting}
-                    className="w-full sm:w-auto bg-gradient-to-r from-primary to-purple-500 hover:from-primary/90 hover:to-purple-500/90"
+                    className="w-full sm:w-auto bg-gradient-to-r from-primary to-purple-500 hover:from-primary/90 hover:to-purple-900/90"
                   >
                     {isSubmitting ? (
                       <span className="flex items-center gap-2">
@@ -205,13 +205,13 @@ export default function Contact() {
                 { 
                   icon: <Mail className="w-10 h-10 text-primary text-white" />, 
                   title: "Email", 
-                  content: "uzairranamuhammad7@gmail.com", 
+                  content: <span className=" hover:text-white">uzairranamuhammad7@gmail.com</span>, 
                   link: "mailto:uzairranamuhammad7@gmail.com", 
                 },
                 { 
                   icon: <MessageCircle className="w-10 h-10 text-green-500" />, 
                   title: "WhatsApp", 
-                  content: "+1(347) 724-1605", 
+                  content: <span className=" hover:text-green-600">"+1(347) 724-1605", </span>,
                   link: "https://wa.me/13477241605", 
                 },
                 { 
@@ -223,7 +223,7 @@ export default function Contact() {
                 { 
                   icon: <MapPin className="w-10 h-10 text-primary text-red-700" />, 
                   title: "Location", 
-                  content: "New York, USA", 
+                  content: <span className="hover:text-red-600">  New York, USA </span>,
                   link: "#", 
                 },
               ].map((item, index) => (

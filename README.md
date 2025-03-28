@@ -7,5 +7,5 @@ Key Features:
 ✅ Projects Showcase – Highlights my best work in web development and machine learning
 ✅ Contact Form – Allows easy communication for potential clients and collaborators
 
-🚀 Check it out here:  https://uzaira.netlify.app/
+🚀 Check it out here: https://uzaira.netlify.app/
 

@@ -44,14 +44,14 @@ export default function About() {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 opacity-20 z-10" />
             <div className="absolute inset-0 backdrop-blur-sm z-0" />
-            <Image
+            {/* <Image
               src={image}
               alt="Profile"
               layout="responsive"
               width={600}
               height={600}
               className="object-cover z-20 relative"
-            />
+            /> */}
 
             <div className="absolute top-4 -left-4 z-30">
               <div className="px-4 py-2 bg-card/80 backdrop-blur-md rounded-lg border border-border/40 shadow-xl">

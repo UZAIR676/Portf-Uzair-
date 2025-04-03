@@ -102,17 +102,37 @@ export default function Hero() {
           className="flex gap-6 mt-9"
         >
           {[
-            { icon: <Github size={24} />, label: "GitHub", href: "https://github.com/UZAIR676" },
-            { icon: <Linkedin size={24} />, label: "LinkedIn", href: "https://www.linkedin.com/in/uzair-rana-uzair/" },
-            { icon: <FaInstagram size={24} />, label: "Instagram", href: "https://www.instagram.com/ranauzair300/" },
-          ].map((social, index) => (
-            <a key={social.label} href={social.href} className="relative group" aria-label={social.label}>
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-purple-500 blur-md opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
-              <div className="relative flex items-center justify-center w-12 h-12 rounded-full bg-card/30 backdrop-blur-sm border border-border/40 text-foreground/80 hover:text-white transition-colors">
-                {social.icon}
-              </div>
-            </a>
-          ))}
+  { 
+    icon: <Github size={24} />, 
+    label: "GitHub", 
+    href: "https://github.com/UZAIR676",
+    gradient: "from-gray-500 to-gray-700"
+  },
+  { 
+    icon: <Linkedin size={24} />, 
+    label: "LinkedIn", 
+    href: "https://www.linkedin.com/in/uzair-rana-uzair/", 
+    gradient: "from-blue-500 to-blue-700" 
+  },
+  { 
+    icon: <FaInstagram size={24} />, 
+    label: "Instagram", 
+    href: "https://www.instagram.com/ranauzair300/",
+    gradient: "from-pink-500 to-purple-500"
+  },
+].map((social) => (
+  <a key={social.label} href={social.href} className="relative group" aria-label={social.label}>
+    {/* Hover Glow Effect */}
+    <div className={`absolute inset-0 rounded-full bg-gradient-to-r ${social.gradient} blur-md opacity-0 group-hover:opacity-70 transition-opacity duration-300`}></div>
+    
+    {/* Social Icon Container */}
+    <div className="relative flex items-center justify-center w-12 h-12 rounded-full bg-card/30 backdrop-blur-sm border border-border/40 text-foreground/80 hover:text-white transition-colors">
+      {social.icon}
+    </div>
+  </a>
+))}
+
+          
         </motion.div>
 
         <motion.div

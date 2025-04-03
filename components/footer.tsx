@@ -1,6 +1,6 @@
 "use client"
 
-import { motion } from "framer-motion"
+import { hover, motion } from "framer-motion"
 import Link from "next/link"
 import { Github, Linkedin, Mail, Twitter} from "lucide-react";
 import { FaInstagram } from 'react-icons/fa'; 
@@ -69,21 +69,22 @@ export default function Footer() {
           >
             <h3 className="text-lg font-bold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              {[
-                  { icon: <Github size={24} />, label: "GitHub", href: "https://github.com/UZAIR676" },
-                            { icon: <Linkedin size={24} />, label: "LinkedIn", href: "https://www.linkedin.com/in/uzair-rana-uzair/" },
-                            { icon: <FaInstagram size={24} />, label: "Instagram", href: "https://www.instagram.com/ranauzair300/" },
-              ].map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  className="p-2 rounded-full bg-card/30 backdrop-blur-sm border border-border/40 text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-                  aria-label={social.label}
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div>
+  {[
+    { icon: <Github size={24} />, label: "GitHub", href: "https://github.com/UZAIR676", hoverColor: "hover:text-gray-400 hover:border-gray-400" },
+    { icon: <Linkedin size={24} />, label: "LinkedIn", href: "https://www.linkedin.com/in/uzair-rana-uzair/", hoverColor: "hover:text-blue-600 hover:border-blue-600" },
+    { icon: <FaInstagram size={24} />, label: "Instagram", href: "https://www.instagram.com/ranauzair300/", hoverColor: "hover:text-pink-500 hover:border-pink-500" },
+  ].map((social) => (
+    <a
+      key={social.label}
+      href={social.href}
+      className={`p-2 rounded-full bg-card/30 backdrop-blur-sm border border-border/40 text-muted-foreground transition-colors ${social.hoverColor}`}
+      aria-label={social.label}
+    >
+      {social.icon}
+    </a>
+  ))}
+</div>
+
           </motion.div>
         </div>
 

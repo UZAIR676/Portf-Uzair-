@@ -79,11 +79,11 @@ export default function About() {
               </span>
             </h3>
             <p className="text-muted-foreground">
-  I'm a passionate developer with 2+ year of experience building web applications using the MERN stack. I specialize in creating
-  responsive, user-friendly interfaces with React and developing robust backend systems with Node.js. I'm also currently learning Data Science, focusing on machine learning and deep learning.
+              I’m a passionate developer with 2+ years of experience building web applications using the MERN stack. I specialize in creating responsive, user-friendly interfaces with React and developing robust backend systems with Node.js. Currently, I’m expanding my expertise in Data Science, focusing on Machine Learning and Deep Learning.
 </p>
 <p className="text-muted-foreground">
-My journey in tech began at UET TEXILA . During my studies, I've worked on multiple projects and websites, and I'm now focusing on growing my expertise in Data Science while continuing to build full-stack applications.
+  My journey in tech began at UET Taxila, and I’m now continuing my studies at LaGuardia Community College (CUNY). I’ve worked on multiple projects and websites, and I’m now focusing on growing my expertise in Data Science while continuing to build full-stack AI based applications.
+
 </p>
 
             <div className="flex flex-wrap gap-3 mt-6">

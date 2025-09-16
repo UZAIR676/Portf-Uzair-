@@ -129,6 +129,7 @@ export default function Hero() {
     <div className="relative flex items-center justify-center w-12 h-12 rounded-full bg-card/30 backdrop-blur-sm border border-border/40 text-foreground/80 hover:text-white transition-colors">
       {social.icon}
     </div>
+    
   </a>
 ))}
 

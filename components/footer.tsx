@@ -11,7 +11,7 @@ export default function Footer() {
 
   return (
     <footer className="relative py-12 overflow-hidden">
-      {/* Background gradient */}
+      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-t from-background to-primary/5 -z-10" />
 
       <div className="container px-4 md:px-6">

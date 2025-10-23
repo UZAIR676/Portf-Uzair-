@@ -6,6 +6,7 @@ import { useRef } from "react"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 import image from './image.png'
+import imageL from "./img1.jpg"
 
 export default function About() {
   const ref = useRef(null)
@@ -31,7 +32,7 @@ export default function About() {
         >
           <span className="px-3 py-1 text-sm rounded-full bg-primary/10 text-primary mb-4">About Me</span>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4 text-center">
-            Know Who{" "}
+            Who{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500">I Am</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-purple-500 rounded-full" />
@@ -45,7 +46,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 opacity-20 z-10" />
             <div className="absolute inset-0 backdrop-blur-sm z-0" />
             <Image
-              src={image}
+              src={imageL}
               alt="Profile"
               layout="responsive"
               width={600}

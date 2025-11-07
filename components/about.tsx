@@ -7,6 +7,9 @@ import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 import image from './image.png'
 import imageL from "./img1.jpg"
+import img from './uzair .png'
+
+
 
 export default function About() {
   const ref = useRef(null)
@@ -46,7 +49,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-purple-500 opacity-20 z-10" />
             <div className="absolute inset-0 backdrop-blur-sm z-0" />
             <Image
-              src={imageL}
+              src={img}
               alt="Profile"
               layout="responsive"
               width={600}
